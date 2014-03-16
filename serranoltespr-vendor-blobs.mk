@@ -82,7 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/serranoltespr/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/samsung/serranoltespr/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/serranoltespr/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/serranoltespr/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/samsung/serranoltespr/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/samsung/serranoltespr/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/serranoltespr/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
@@ -91,6 +90,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/serranoltespr/proprietary/bin/time_daemon:system/bin/time_daemon
 
 IGNORE_PRODUCT_COPY_FILES += \
+    vendor/samsung/serranoltespr/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/samsung/serranoltespr/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/serranoltespr/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/serranoltespr/proprietary/bin/mpdecision:system/bin/mpdecision \
