@@ -70,15 +70,15 @@ PRODUCT_COPY_FILES += \
 # libdrmfs.so
 
 # btnvtool
-PRODUCT_COPY_FILES += \
-    vendor/samsung/serranoltespr/proprietary/bin/btnvtool:system/bin/btnvtool
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/serranoltespr/proprietary/bin/btnvtool:system/bin/btnvtool
 
 #ds_fmc_appd
-PRODUCT_COPY_FILES += \
-    vendor/samsung/serranoltespr/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/serranoltespr/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd
 
 # Voodoo additions to see if they fix anything
-PRODUCT_COPY_FILES += \
+DROP_PRODUCT_COPY_FILES += \
     vendor/samsung/serranoltespr/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/samsung/serranoltespr/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/serranoltespr/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
